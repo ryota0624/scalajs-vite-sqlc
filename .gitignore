@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.metals/*
+project/target/*
+project/project/*
+target/*
