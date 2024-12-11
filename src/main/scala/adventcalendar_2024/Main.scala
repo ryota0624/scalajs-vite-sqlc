@@ -1,7 +1,7 @@
-package livechart
+package adventcaaner_2024
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.*
+import scalavitesqlc.database.authorsSqlMod.GetAuthorArgs
 
 @main
-def main(): Unit = println("iam scala code")
+def main(): Unit = println(s"iam scala code. ${GetAuthorArgs.getClass.toString}")
