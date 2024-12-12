@@ -4,12 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "vite-node src/main.ts"
   },
   "devDependencies": {
+    "@scala-js/vite-plugin-scalajs": "^1.0.0",
     "typescript": "~5.6.2",
-    "vite": "^6.0.1"
+    "vite": "^6.0.3",
+    "vite-node": "^2.1.8"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.10",
+    "database": "file:./database",
+    "pg": "^8.13.1"
   }
 }
